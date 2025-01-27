@@ -1,8 +1,8 @@
 name: Collect
 on:
-  # Runs at 00:00, every 5 days
+  # Runs at 18:00, every 2 days
   schedule:
-    - cron: "0 0 */5 * ?"
+    - cron: "0 18 */2 * ?"
   workflow_dispatch:
 
 concurrency:
